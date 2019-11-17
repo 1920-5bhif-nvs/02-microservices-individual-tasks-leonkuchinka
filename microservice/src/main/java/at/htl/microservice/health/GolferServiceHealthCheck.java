@@ -1,5 +1,6 @@
-package at.htl.microservice;
+package at.htl.microservice.health;
 
+import at.htl.microservice.golfer.boundary.GolferService;
 import org.eclipse.microprofile.health.HealthCheckResponseBuilder;
 import org.eclipse.microprofile.health.Liveness;
 import org.eclipse.microprofile.health.HealthCheck;
@@ -17,7 +18,7 @@ import java.util.Set;
 
 @Liveness
 @ApplicationScoped
-public class MyHealthCheck implements HealthCheck {
+public class GolferServiceHealthCheck implements HealthCheck {
 
     @Inject
     @RestClient

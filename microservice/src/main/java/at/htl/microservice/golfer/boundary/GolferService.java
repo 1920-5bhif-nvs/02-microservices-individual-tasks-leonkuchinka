@@ -1,13 +1,13 @@
-package at.htl.microservice;
+package at.htl.microservice.golfer.boundary;
 
+
+import at.htl.microservice.golfer.entity.Golfer;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 
-import javax.json.JsonObject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import java.util.List;
-import java.util.Set;
 
 @Path("/golfer")
 @RegisterRestClient

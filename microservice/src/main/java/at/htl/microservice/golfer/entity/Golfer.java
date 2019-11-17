@@ -1,4 +1,4 @@
-package at.htl.microservice;
+package at.htl.microservice.golfer.entity;
 
 public class Golfer {
     protected Long id;
