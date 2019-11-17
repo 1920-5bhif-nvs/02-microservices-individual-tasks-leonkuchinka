@@ -1,5 +1,6 @@
 # 02-microservices-individual-tasks-leonkuchinka
 ### Extensions hinzufügen
+
 ```
 mvn quarkus:add-extension -Dextensions="health"
 mvn quarkus:add-extension -Dextensions="metrics"
